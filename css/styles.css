@@ -119,7 +119,16 @@ a {
 /* ---------------------------------------------------------
    4. HERO SECTION
    --------------------------------------------------------- */
+.hero-logo-wrap {
+    margin-bottom: 32px;
+}
 
+.hero-logo {
+    width: min(620px, 92%);
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
 .hero {
     min-height: calc(100vh - 82px);
 
@@ -601,10 +610,14 @@ a {
         padding: 35px 25px;
     }
 
-    .footer-container {
-        flex-direction: column;
+   .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-        align-items: flex-start;
-    }
+.hero-logo {
+    width: 100%;
+    max-width: 440px;
+}
 
 }
